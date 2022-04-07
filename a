@@ -1,0 +1,16 @@
+#include <iostream>
+#define TABLA 5
+
+using namespace std;
+
+int main()
+{
+	int inc;
+	cout <<"Tabla de multiplicar del no"<<TABLA<<endl;
+	for (inc=0; inc <=10; inc++);
+	{
+		cout<<inc<<" x "<<TABLA<<"="<<
+		inc*TABLA<<endl;
+	}
+	return 0;
+}
